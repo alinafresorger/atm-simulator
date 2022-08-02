@@ -10,6 +10,7 @@ Withdraw the money back (if it is within the account limits!)
 2. Run http server
 3. Go to browser to local server
 4. Choose the option of "Deposit" or "Cash Back"
+5. Enter amount
 
 ## License Information:
 MIT License
