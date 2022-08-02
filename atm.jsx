@@ -28,8 +28,10 @@ const Account = () => {
     }
     if (atmMode === "Cash Back" && Number(event.target.value) > totalState) {
       setValidTransaction(false);
+      alert("Insufficient Funds");
     } else {
       setValidTransaction(true);
+      
     }
     setDeposit(Number(event.target.value));
   };
